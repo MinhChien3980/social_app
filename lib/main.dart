@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:another_flutter_splash_screen/another_flutter_splash_screen.dart';
+import 'package:social_app/login/broading_page.dart';
 
 import 'login/login_page.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       ),
       home: FlutterSplashScreen.fadeIn(
         backgroundImage: Image.asset("assets/image/Dark Background.png"),
-        duration: const Duration(milliseconds: 3000),
+        duration: const Duration(milliseconds: 2000),
         onInit: () {
           debugPrint("On Init");
         },
@@ -48,7 +49,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
         onAnimationEnd: () => debugPrint("On Fade In End"),
-        nextScreen: const LoginPage(),
+        nextScreen: const OnBoarding(),
       ),
     );
   }

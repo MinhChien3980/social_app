@@ -65,6 +65,8 @@ flutter:
     - assets/image/Group 6960.png
     - assets/image/Header background.png
     - assets/image/Component 7045.png
+    - assets/image/Reset pass.png
+    - assets/image/Welcome.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
