@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'login_page.dart';
+import 'sign_in.dart';
 
 class OnBoarding extends StatelessWidget {
   const OnBoarding({super.key});
